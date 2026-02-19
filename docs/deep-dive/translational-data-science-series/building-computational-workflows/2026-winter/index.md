@@ -6,26 +6,33 @@
 
 ## Course Overview
 
-<!-- TODO: Brief 2-3 sentence description of the course and what participants will walk away with -->
+This course will guide readers through the basics of WDL computational workflows, why they might be advantageous in research contexts, and how to best utilize them in the context of the Fred Hutch ecosystem.
 
 ## Who This Course Is For
 
-<!-- TODO: Describe the target audience (researchers, analysts, etc.) and expected comfort level -->
+- No previous workflow experience is required, just basic command line experience.
+- The specifics of WDL execution will be most useful for researchers actually performing the research (e.g. post-docs, grad students), but PI's would definitely benefit from the broad concepts and potential advantages of WDL workflows.
 
 ## Learning Objectives
 
 By the end of this course, you will be able to:
 
-<!-- TODO: Fill in 4-5 concrete learning objectives, e.g.:
 - Understand the structure of a WDL workflow
-- Specify inputs and submit a workflow via PROOF or Sprocket
+- Specify inputs and execute a workflow via Sprocket or PROOF
 - Navigate the WILDS WDL Library to find relevant workflows
 - Interpret workflow outputs and troubleshoot common issues
 - Customize existing workflows by adding or swapping modules
--->
 
 ## Prerequisites
 
+For local execution:
+- Install Docker and Sprocket
+
+For execution on Fred Hutch Resources:
+- Fred Hutch credentials
+- Access to the Fred Hutch Cluster
+
+<!-- TODO: Add SciWiki links -->
 <!-- TODO: List prerequisites (e.g., Fred Hutch cluster access, Rhino credentials, SciComp Self-Service setup) -->
 <!-- TODO: Link to pre-work resources (e.g., Cluster 101) -->
 
