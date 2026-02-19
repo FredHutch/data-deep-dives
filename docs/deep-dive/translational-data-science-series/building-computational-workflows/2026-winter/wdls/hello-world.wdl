@@ -12,7 +12,7 @@ workflow hello {
 
   input {
     String your_name = "Fred"
-    Int your_number = 50
+    Int your_number = 29
   }
 
   call greet {
