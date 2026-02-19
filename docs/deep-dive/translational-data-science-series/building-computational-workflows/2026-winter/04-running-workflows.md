@@ -6,22 +6,43 @@
 
 ## Execution Engines Overview
 
-<!-- TODO: Briefly explain what an execution engine does — takes a WDL + inputs and runs the workflow -->
-<!-- TODO: Mention the engines available: Sprocket, Cromwell, miniWDL -->
+While the WDL language describes the logistics of a particular workflow, an _execution engine_ is needed in order to actually carry out these instructions on a given computing platform. It essentially coordinates how and when to run each task throughout the workflow so you don't have to worry about it.
+
+There are a few options available for folks to try out, but at Fred Hutch, we recommend one of two options: Sprocket (for direct execution on the command line) and PROOF (for more interactive point-and-click execution & monitoring).
 
 ## Sprocket (Command Line)
 
 ### What is Sprocket?
 
-<!-- TODO: Describe Sprocket — a modern, WDL-native command-line executor -->
-<!-- TODO: Emphasize that Sprocket is broadly available and not tied to any specific institution -->
+Sprocket is a command-line WDL executor originally developed by researchers over at St. Jude's. It's written in Rust, so it is fast and easy-to-install with lots of extra features already built in.
+
+Cromwell and miniWDL are both reasonable options as well, but Cromwell requires a pretty complex installation/configuration in order to run workflows, and miniWDL is difficult to scale with larger HPC systems like the Fred Hutch cluster.
+
+Plus, development of Sprocket is much more active compared to Cromwell and miniWDL, so if issues do come up, it's much more likely to be addressed in a timely fashion with Sprocket.
 
 ### Installing / Accessing Sprocket
 
-<!-- TODO: How to install or access Sprocket (platform-agnostic instructions) -->
-<!-- TODO: Fred Hutch-specific note: also available on the cluster -->
+When using the Fred Hutch cluster, installation isn't necessary, just load the pre-built Sprocket and Apptainer modules:
+
+```
+$ module load sprocket/0.19.0 Apptainer/1.1.6
+$ sprocket --version
+sprocket v0.19.0 (9b96d4f62 2025-11-24)
+```
+
+When running workflows directly on your laptop, it's straightforward to install Sprocket on Mac's via Homebrew (`brew install sprocket`) or on Windows via Cargo (`cargo install sprocket`), but other installation methods are available [in Sprocket's documentation](https://sprocket.bio/installation.html).
+
+You'll also need to install Docker Desktop on your laptop to manage the underlying software environments, which can be downloaded through [Docker's website](https://www.docker.com/get-started/).
+
+Once installed/loaded, Sprocket should behave relatively similarly no matter whether you're running on the cluster or locally.
 
 ### Validating Before You Run
+
+If you run `sprocket --help`, you'll notice a list of possible commands to utilize with Sprocket. The two main ones to focus on for this course are `lint` and `run`.
+
+`sprocket run` does the actual execution of a WDL workflow, but a good first step before that is `sprocket lint`. This command validates that your workflow is properly formatted and identifies issues that might cause your workflow to exit prematurely during execution.
+
+For instance, 
 
 <!-- TODO: Briefly introduce Sprocket's validation capabilities as a pre-run best practice:
   - Syntax checking and input validation
