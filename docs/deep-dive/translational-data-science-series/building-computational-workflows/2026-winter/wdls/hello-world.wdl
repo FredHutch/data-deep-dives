@@ -42,8 +42,8 @@ task greet {
   }
 
   command <<<
-    echo "Hello, ~{name}!" > ~{name}.txt
-    echo "Your favorite number is ~{number}" >> ~{name}.txt
+    echo "Hello, ~{name}!" > "~{name}.txt"
+    echo "Your favorite number is ~{number}" >> "~{name}.txt"
   >>>
 
   output {
