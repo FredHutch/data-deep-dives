@@ -36,26 +36,71 @@ You'll also need to install Docker Desktop on your laptop to manage the underlyi
 
 Once installed/loaded, Sprocket should behave relatively similarly no matter whether you're running on the cluster or locally.
 
+> To follow along on the Fred Hutch cluster, copy the WDL script and input to your current directory via the following commands
+```
+cp /fh/fast/_DaSL/public/hello-world.wdl .
+cp /fh/fast/_DaSL/public/hello-world-inputs.json .
+```
+
 ### Validating Before You Run
 
 If you run `sprocket --help`, you'll notice a list of possible commands to utilize with Sprocket. The two main ones to focus on for this course are `lint` and `run`.
 
 `sprocket run` does the actual execution of a WDL workflow, but a good first step before that is `sprocket lint`. This command validates that your workflow is properly formatted and identifies issues that might cause your workflow to exit prematurely during execution.
 
-For instance, 
+For instance, let's try validating the "Hello world" WDL we walked through in the previous section:
 
-<!-- TODO: Briefly introduce Sprocket's validation capabilities as a pre-run best practice:
-  - Syntax checking and input validation
-  - Catching errors early before submitting a potentially long-running workflow
-  - See Module 7 for more on using validation as a troubleshooting tool
--->
+```
+sprocket lint hello-world.wdl --hide-notes
+```
+
+You'll notice that nothing gets printed because our WDL is nicely-formatted and should run with no problem! 
+
+> We're ignoring notes here as they have more to do with code cleanliness and best-practices, but if you're curious, feel free to remove the `--hide-notes` option and try it again.
+
+However, let's pretend I forgot to finish the definition of the `greet` task by deleting the final `}` character at the end of the `hello-world.wdl` script. If we rerun the same `sprocket lint` command above, we now get an informative `error` message letting me know where I messed up:
+
+```
+error: expected `}`, but found end of input
+   ┌─ docs/deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/wdls/hello-world.wdl:65:1
+   │
+32 │ task greet {
+   │            - this `{` is not matched
+   ·
+65 │ 
+   │ ^ unexpected end of input
+
+error: failing due to 1 error
+```
+
+The linting command can also provide less serious (but still important) `warning` messages that might break your workflow under certain conditions or make it less efficient/harder to use. Module 7 will touch more on other troubleshooting techniques, but workflow validation is your first line of defense. Before committing time & resources to executing your workflow (only to find out it's improperly formatted), you can identify potential issues immediately with `sprocket lint`.
 
 ### Running the Hello World Workflow with Sprocket
 
-<!-- TODO: Walk through running the Hello World workflow via the command line:
-  sprocket run hello_world.wdl --inputs inputs.json
--->
-<!-- TODO: Show the terminal output as it runs -->
+Now that we feel confident that our workflow will actually execute, let's take it for a spin using `sprocket run`! On a local laptop, the command is relatively straightforward in that we call `sprocket`, specify that it should `run` a workflow, point it to the location of the workflow script (`hello-world.wdl`), and provide it with input values via the inputs json (`hello-world-inputs.json`):
+
+```
+sprocket run hello-world.wdl hello-world-inputs.json
+```
+
+On the Fred Hutch cluster, it is a very similar and straightforward command, but we need to let Sprocket know that it's running on a shared HPC, so it should use SLURM & Apptainer when running tasks. To do this, we need to provide a two-line "configuration file" to Sprocket letting it know as such:
+
+```
+# The Slurm + Apptainer backend requires explicitly opting into experimental features.
+run.experimental_features_enabled = true
+# Set the default backend to Slurm + Apptainer.
+run.backends.default.type = "slurm_apptainer"
+```
+
+From there, we can pass that config file to Sprocket using the `-c` option and pointing to the location of the file (in this case, a public copy available on Rhino):
+
+```
+sprocket run -c /fh/fast/_DaSL/public/sprocket-config.toml hello-world.wdl hello-world-inputs.json
+```
+
+<!-- TODO: Show a screenshot of the terminal as it runs -->
+
+From here, you should see a status report displaying on the command line showing you what tasks are in progress, which tasks are completed, which tasks are still to come, and (hopefully not) which tasks have failed. If so, congratulations! You're running your first workflow!!! :tada:
 
 ### Monitoring and Output
 
