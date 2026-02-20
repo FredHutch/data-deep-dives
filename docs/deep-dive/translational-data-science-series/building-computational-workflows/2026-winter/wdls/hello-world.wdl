@@ -3,6 +3,9 @@ version 1.0
 workflow hello {
   meta {
     description: "Writes a personalized greeting to a file"
+    outputs: {
+      out_file: "A file containing a personalized greeting and your favorite number"
+    }
   }
 
   parameter_meta {
@@ -29,6 +32,9 @@ workflow hello {
 task greet {
   meta {
     description: "Writes a personalized greeting to a file"
+    outputs: {
+      out: "A file containing a personalized greeting and your favorite number"
+    }
   }
 
   parameter_meta {
