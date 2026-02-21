@@ -36,10 +36,11 @@ You'll also need to install Docker Desktop on your laptop to manage the underlyi
 
 Once installed/loaded, Sprocket should behave relatively similarly no matter whether you're running on the cluster or locally.
 
-> To follow along on the Fred Hutch cluster, copy the WDL script and input to your current directory via the following commands
+> To follow along on the Fred Hutch cluster, copy the WDL script, input json, and config file to your current directory via the following commands
 ```
 cp /fh/fast/_DaSL/public/hello-world.wdl .
 cp /fh/fast/_DaSL/public/hello-world-inputs.json .
+cp /fh/fast/_DaSL/public/sprocket-config.toml .
 ```
 
 ### Validating Before You Run
@@ -95,21 +96,22 @@ run.backends.default.type = "slurm_apptainer"
 From there, we can pass that config file to Sprocket using the `-c` option and pointing to the location of the file (in this case, a public copy available on Rhino):
 
 ```
-sprocket run -c /fh/fast/_DaSL/public/sprocket-config.toml hello-world.wdl hello-world-inputs.json
+sprocket run -c sprocket-config.toml hello-world.wdl hello-world-inputs.json
 ```
-
-<!-- TODO: Show a screenshot of the terminal as it runs -->
-
-From here, you should see a status report displaying on the command line showing you what tasks are in progress, which tasks are completed, which tasks are still to come, and (hopefully not) which tasks have failed. If so, congratulations! You're running your first workflow!!! :tada:
 
 ### Monitoring and Output
 
-<!-- TODO: Keep this brief — Hello World finishes in seconds, so focus on:
-  - Terminal output during execution (what success looks like)
-  - Where the output file lands
-  Note: Detailed log reading and task-level debugging are covered in Module 5,
-  where the longer-running real-world workflow makes those skills more meaningful.
--->
+After running either of the commands above, you should see a status report displaying on the command line (see screenshot above) showing you what tasks are in progress, which tasks are completed, which tasks are still to come, and (hopefully not) which tasks have failed.
+
+![Screenshot of workflow in progress](images/SprocketInProgress.png)
+
+The "Hello World" workflow is relatively simple, so it should finish up within thirty seconds or so. Once it completes, you should see a list of your workflow outputs and where they are located:
+
+![Screenshot of completed workflow](images/SprocketInProgress.png)
+
+If so, congratulations! You've just run your first workflow!!! :tada:
+
+> For longer workflows with larger datasets on the Fred Hutch cluster, we recommend navigating to your lab's [`/hpc/temp/` directory](https://sciwiki.fredhutch.org/scicompannounce/2024-04-02-new-hpc-temp-storage/) and executing there to reduce storage costs for intermediate files. We also recommend utilizing [`grabnode`](https://sciwiki.fredhutch.org/compdemos/grabnode/) to isolate your Sprocket executor on its own node and reduce computational load on the head node of Rhino.
 
 ## PROOF (Point-and-Click)
 
