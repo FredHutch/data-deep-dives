@@ -41,13 +41,12 @@ For execution on Fred Hutch Resources:
 | # | Module | Description |
 |---|--------|-------------|
 | 1 | [Introduction](01-introduction.md) | Why workflows? Motivation and context |
-| 2 | [WDL Concepts](02-wdl-concepts.md) | Core WDL concepts and workflow anatomy |
-| 3 | [Hello World Walkthrough](03-hello-world.md) | Your first WDL workflow, step by step |
-| 4 | [Running Workflows](04-running-workflows.md) | Executing workflows with Sprocket and PROOF |
-| 5 | [A Real-World Workflow](05-real-world-workflow.md) | End-to-end example with `ww-sra-star` from the WILDS WDL Library |
-| 6 | [Customizing Workflows](06-customizing-workflows.md) | Modifying and extending existing pipelines |
-| 7 | [Troubleshooting](07-troubleshooting.md) | Diagnosing errors and fixing common issues |
-| 8 | [Resources & Next Steps](08-resources.md) | Where to go from here |
+| 2 | [WDL Concepts](02-wdl-concepts.md) | Core WDL concepts learned through a Hello World walkthrough |
+| 3 | [Running Workflows](03-running-workflows.md) | Executing workflows with Sprocket and PROOF |
+| 4 | [A Real-World Workflow](04-real-world-workflow.md) | End-to-end example with `ww-sra-star` from the WILDS WDL Library |
+| 5 | [Customizing Workflows](05-customizing-workflows.md) | Modifying and extending existing pipelines |
+| 6 | [Troubleshooting](06-troubleshooting.md) | Diagnosing errors and fixing common issues |
+| 7 | [Resources & Next Steps](07-resources.md) | Where to go from here |
 
 ## Reference
 

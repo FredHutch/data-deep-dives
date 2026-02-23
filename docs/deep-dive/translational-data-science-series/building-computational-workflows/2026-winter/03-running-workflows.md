@@ -1,6 +1,6 @@
-# Module 4: Running Workflows
+# Module 3: Running Workflows
 
-> How to execute WDL workflows using Sprocket and PROOF — with the Hello World workflow from Module 3 as our hands-on example.
+> How to execute WDL workflows using Sprocket and PROOF — with the Hello World workflow from Module 2 as our hands-on example.
 
 ---
 
@@ -74,7 +74,7 @@ error: expected `}`, but found end of input
 error: failing due to 1 error
 ```
 
-The linting command can also provide less serious (but still important) `warning` messages that might break your workflow under certain conditions or make it less efficient/harder to use. Module 7 will touch more on other troubleshooting techniques, but workflow validation is your first line of defense. Before committing time & resources to executing your workflow (only to find out it's improperly formatted), you can identify potential issues immediately with `sprocket lint`.
+The linting command can also provide less serious (but still important) `warning` messages that might break your workflow under certain conditions or make it less efficient/harder to use. Module 6 will touch more on other troubleshooting techniques, but workflow validation is your first line of defense. Before committing time & resources to executing your workflow (only to find out it's improperly formatted), you can identify potential issues immediately with `sprocket lint`.
 
 ### Running the Hello World Workflow with Sprocket
 
@@ -140,4 +140,4 @@ For WDL-beginners at Fred Hutch, we recommend starting with PROOF for an easier 
 
 ---
 
-**Previous:** [← Hello World Walkthrough](03-hello-world.md) | **Next:** [A Real-World Workflow →](05-real-world-workflow.md)
+**Previous:** [← WDL Concepts](02-wdl-concepts.md) | **Next:** [A Real-World Workflow →](04-real-world-workflow.md)

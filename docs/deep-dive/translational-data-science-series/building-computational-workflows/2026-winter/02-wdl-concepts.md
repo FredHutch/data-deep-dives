@@ -1,32 +1,43 @@
-# Module 2: WDL Concepts
+# Module 2: WDL Concepts — A Hello World Walkthrough
 
-> The building blocks of a WDL workflow — tasks, inputs, outputs, and how they fit together.
+> The building blocks of a WDL workflow — learned hands-on through a minimal example.
 
 ---
 
-## Anatomy of a WDL Workflow
+## Overview
+
+<!-- TODO: Introduce the "Hello World" workflow as the teaching vehicle for this module -->
+<!-- TODO: Emphasize that this workflow is intentionally simple — no bioinformatics knowledge required (~30 second runtime) -->
+<!-- TODO: Frame the approach: we'll learn every core WDL concept by walking through a real, working example -->
+
+## The Hello World WDL
+
+<!-- TODO: Show the full Hello World WDL inline — a single-file workflow with one task
+  that takes a name (String) and greeting (String), echoes a message, and writes it to a file.
+  No imports, no scatter, no structs — just the core building blocks. -->
+
+## Breaking It Down
 
 <!-- TODO: High-level diagram or description of the structure of a .wdl file -->
 <!-- TODO: Explain the relationship between workflows and tasks -->
 
 ### The `workflow` Block
 
+<!-- TODO: Walk through the Hello World workflow block line by line -->
 <!-- TODO: Explain what a workflow block does — orchestrates tasks, defines execution order -->
-<!-- TODO: Show a minimal skeleton example -->
 
 ### The `task` Block
 
-<!-- TODO: Explain what a task is — a unit of work with a command, inputs, outputs, and runtime -->
-<!-- TODO: Describe the key sections within a task:
-  - input { }
-  - command <<< >>>
-  - output { }
-  - runtime { }
+<!-- TODO: Walk through the Hello World task block line by line:
+  - input section — what goes in (e.g., a String name, a String greeting)
+  - command section — what it does (e.g., echo "${greeting}, ${name}!" > output.txt)
+  - output section — what comes out (e.g., File greeting_file)
+  - runtime section — where it runs (Docker container)
 -->
 
 ### The `meta` and `parameter_meta` Blocks
 
-<!-- TODO: Explain how metadata documents the workflow and its parameters -->
+<!-- TODO: Explain the Hello World metadata and how it documents the workflow and its parameters -->
 
 ## Inputs and Outputs
 
@@ -34,11 +45,17 @@
 
 <!-- TODO: Cover common WDL types: String, Int, File, Boolean, Array, etc. -->
 <!-- TODO: Explain required vs. optional inputs -->
+<!-- TODO: Use Hello World inputs as concrete examples of String type -->
 
 ### The `inputs.json` File
 
-<!-- TODO: Explain how users specify inputs via a JSON file -->
-<!-- TODO: Show a simple example of an inputs.json -->
+<!-- TODO: Show the inputs.json for the Hello World workflow -->
+<!-- TODO: Explain the format: workflow_name.variable_name = value -->
+
+### Modifying Inputs
+
+<!-- TODO: Walk through how to change an input value (e.g., changing the greeting message or the name) -->
+<!-- TODO: Emphasize that this is how users customize workflow behavior without editing the WDL itself -->
 
 ### The `options.json` File
 
@@ -48,7 +65,9 @@
 
 <!-- TODO: Explain how outputs are declared and where they end up -->
 
-## Key Patterns
+## Key Patterns (Preview)
+
+<!-- TODO: Brief intro — these are patterns you'll see in real-world workflows (covered more in later modules) -->
 
 ### Scatter-Gather
 
@@ -69,6 +88,10 @@
 <!-- TODO: Briefly explain why tasks specify Docker containers -->
 <!-- TODO: Mention the WILDS Docker Library and how containers ensure consistent environments -->
 
+## What's Next
+
+Now that you understand every piece of a WDL workflow, it's time to actually run one. In the next module, you'll use the Hello World workflow as your first hands-on exercise.
+
 ---
 
-**Previous:** [← Introduction](01-introduction.md) | **Next:** [Hello World Walkthrough →](03-hello-world.md)
+**Previous:** [← Introduction](01-introduction.md) | **Next:** [Running Workflows →](03-running-workflows.md)
