@@ -27,3 +27,6 @@ venv/
 
 # Personal notes/documentation
 notes/
+
+# MkDocs build output
+site/
