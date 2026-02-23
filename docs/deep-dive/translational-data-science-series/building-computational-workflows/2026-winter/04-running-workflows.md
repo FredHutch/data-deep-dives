@@ -117,54 +117,26 @@ If so, congratulations! You've just run your first workflow!!! :tada:
 
 ### What is PROOF?
 
-<!-- TODO: Describe PROOF — Fred Hutch's web-based interface for submitting and monitoring workflows (built on Cromwell) -->
-<!-- TODO: Note that PROOF is specific to Fred Hutch — Sprocket (above) is the general-purpose option -->
+[PROOF](https://sciwiki.fredhutch.org/datascience/proof/) is a point-and-click app for submitting and monitoring WDL workflows on the Fred Hutch cluster. Developed by Fred Hutch OCDO, [PROOF](https://proof.fredhutch.org/) is a much better option for users that are less familiar with HPC-specific complexities like SLURM/grabnode/Apptainer, but would still like to harness the advantages of WDL workflows.
+
+> Note: PROOF is only available to Fred Hutch users on the Fred Hutch network, but [Terra](https://terra.bio/) and [AnVIL](https://anvil.terra.bio/) provide similar functionality for users outside of Fred Hutch.
 
 ### Submitting the Hello World Workflow via PROOF
 
-<!-- TODO: Step-by-step walkthrough with screenshots, using the Hello World WDL and inputs.json from Module 3:
-  1. Navigate to PROOF
-  2. Upload or point to the Hello World WDL file
-  3. Provide the inputs.json from Module 3
-  4. Configure options (options.json)
-  5. Submit the workflow
--->
+We recommend reviewing the [SciWiki "How to PROOF"](https://sciwiki.fredhutch.org/datademos/proof-how-to/) article for exact instructions on workflow submission and monitoring, but the general workflow is:
 
-### Monitoring the Run
+1. Navigate to [proof.fredhutch.org](https://proof.fredhutch.org/) on the Fred Hutch network.
+2. Log in with your Fred Hutch credentials.
+3. Launch a workflow scheduler via the "PROOF Server" tab.
+4. Validate your workflow by uploading to script on the "Validate" tab.
+5. On the "Submit Jobs" tab, upload your WDL script and customized inputs json and click "Submit" to execute the workflow on Rhino.
+6. Head to the "Track Jobs" tab to monitor your workflow and locate your outputs when finished.
 
-<!-- TODO: Show how to monitor the Hello World run in PROOF:
-  - Check workflow status
-  - View task-level progress
-  - See logs for individual tasks
--->
-
-### Viewing Results in PROOF
-
-<!-- TODO: Show how to access outputs once the Hello World workflow completes:
-  - Where to find the output files in the PROOF UI
-  - Output directory structure: top-level directory per workflow run, subdirectories per task call
-  - Locating the greeting output file
--->
-
-### Aborting a Workflow
-
-<!-- TODO: Explain how to cancel a running workflow if needed -->
-
-## Understanding Workflow Outputs
-
-<!-- TODO: Now that learners have completed their first run(s), generalize the output concepts:
-  - Output directory structure: top-level directory per workflow run, subdirectories per task call
-  - How scattered tasks create per-sample directories (preview for Module 5)
-  - Locating key output files after a run completes
-  - How output organization may differ slightly between Sprocket and PROOF
--->
+To troubleshoot a workflow in PROOF, we also recommend checking out the [PROOF Troubleshooting SciWiki article](https://sciwiki.fredhutch.org/datademos/proof-troubleshooting/) for tips & tricks.
 
 ## Choosing Between Sprocket and PROOF
 
-<!-- TODO: Comparison table or guidance:
-  - Sprocket: CLI, broadly available, scriptable, good for automation and advanced users
-  - PROOF: GUI, Fred Hutch-specific, good for beginners, visual monitoring
--->
+For WDL-beginners at Fred Hutch, we recommend starting with PROOF for an easier introduction to computational workflows before jumping into the complexity of execution engines. That being said, if you'd like to dig further into WDL or your project has an extra level of complexity that requires execution from the command line, Sprocket is a great option for that, both at Fred Hutch and beyond!
 
 ---
 
