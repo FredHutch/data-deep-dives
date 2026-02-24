@@ -18,18 +18,18 @@ workflow hello_world {
     Int your_number = 29
   }
 
-  call greet {
+  call greeting {
     input:
       name = your_name,
       number = your_number
   }
 
   output {
-    File out_file = greet.out
+    File out_file = greeting.out
   }
 }
 
-task greet {
+task greeting {
   meta {
     description: "Writes a personalized greeting to a file"
     outputs: {
