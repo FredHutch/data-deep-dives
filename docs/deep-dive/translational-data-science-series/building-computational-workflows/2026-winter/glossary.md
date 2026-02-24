@@ -8,32 +8,32 @@
 
 ## Workflow & WDL Terms
 
-**WDL (Workflow Description Language)**
-<!-- TODO: Define -->
+**[WDL (Workflow Description Language)](https://sciwiki.fredhutch.org/datascience/wdl_workflows/)**
+A human-readable language used to define computational workflows, including tasks, inputs, outputs, and how steps connect together.
 
-**Workflow**
-<!-- TODO: Define — a sequence of tasks that together perform an analysis -->
+**[Workflow](https://sciwiki.fredhutch.org/datascience/wdl_workflows/#anatomy-of-a-workflow)**
+An ordered set of tasks that together perform a complete analysis — from input data to final results.
 
-**Task**
-<!-- TODO: Define — a single unit of work within a workflow -->
+**[Task](https://sciwiki.fredhutch.org/datascience/wdl_workflows/#anatomy-of-a-task)**
+A single unit of work within a workflow, typically wrapping one command-line tool.
 
-**Scatter-Gather**
-<!-- TODO: Define — a pattern for running the same task on multiple inputs in parallel -->
+**[Scatter-Gather](https://sciwiki.fredhutch.org/datascience/wdl_workflows/#parallelization-with-scatter-gather)**
+A pattern that runs the same task on multiple inputs in parallel (scatter), then optionally combines the results afterward (gather).
 
 **`meta` Block**
-<!-- TODO: Define — a block within a workflow or task that provides descriptive metadata (author, description, etc.) -->
+A section within a workflow or task used to store descriptive information (e.g., author, description, version). It does not affect execution.
 
 **`parameter_meta` Block**
-<!-- TODO: Define — a block within a task that documents each input/output parameter with descriptions and help text -->
+A section that documents workflow or task inputs with descriptions and helpful guidance for users.
 
 **Call Caching**
-<!-- TODO: Define — reusing outputs from previously completed tasks when inputs haven't changed -->
+A feature that reuses results from a previously completed task if the inputs and settings have not changed — saving time and compute resources.
 
 **Inputs (inputs.json)**
-<!-- TODO: Define — a JSON file specifying the values for a workflow's input parameters -->
+A JSON file that provides values for a workflow’s input parameters when it is executed.
 
 **Options (options.json)**
-<!-- TODO: Define — a JSON file specifying execution configuration (output directory, caching, etc.) -->
+A JSON file that defines execution-level settings such as output location, call caching behavior, and runtime configuration.
 
 ## WILDS Ecosystem
 
@@ -54,21 +54,21 @@
 
 ## Execution Platforms
 
-**PROOF**
-<!-- TODO: Define — Fred Hutch's point-and-click web interface for submitting and monitoring WDL workflows -->
+**[PROOF](https://sciwiki.fredhutch.org/datascience/proof/)**
+Fred Hutch’s web-based interface for submitting, monitoring, and managing WDL workflows without using the command line.
 
-**Sprocket**
-<!-- TODO: Define — a modern command-line WDL executor -->
+**[Sprocket](https://sciwiki.fredhutch.org/datascience/wdl_execution_engines/#sprocket)**
+A modern command-line WDL execution tool used to run workflows locally or on the cluster.
 
-**Cromwell**
-<!-- TODO: Define — an open-source workflow execution engine developed by the Broad Institute -->
+**[Cromwell](https://sciwiki.fredhutch.org/datascience/wdl_execution_engines/#cromwell)**
+An open-source workflow execution engine developed by the Broad Institute that runs WDL workflows.
 
-**miniWDL**
-<!-- TODO: Define — a lightweight local WDL execution engine -->
+**[miniWDL](https://sciwiki.fredhutch.org/datascience/wdl_execution_engines/#miniwdl)**
+A lightweight WDL execution engine often used for local development and testing.
 
 ## Infrastructure
 
-**Rhino**
+**[Rhino](https://sciwiki.fredhutch.org/compdemos/howtoRhino/)**
 <!-- TODO: Define — Fred Hutch's login/compute nodes -->
 
 **Gizmo**
