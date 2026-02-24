@@ -1,6 +1,6 @@
 version 1.0
 
-workflow hello {
+workflow hello_world {
   meta {
     description: "Writes a personalized greeting to a file"
     outputs: {
