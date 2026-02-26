@@ -48,3 +48,5 @@ This Deep Dive includes a live demonstration and optional follow-along submissio
 - Email: datascience@fredhutch.org
 
 > We would much rather help you beforehand than during the session.
+
+**Next:** [Introduction →](01-introduction.md)

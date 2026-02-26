@@ -11,12 +11,15 @@ theme:
 nav:
   - Home: index.md
   - Building Computational Workflows:
-    - Overview: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/index.md
-    - Introduction: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/01-introduction.md
-    - WDL Concepts: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/02-wdl-concepts.md
-    - Running Workflows: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/03-running-workflows.md
-    - A Real-World Workflow: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/04-real-world-workflow.md
-    - Customizing Workflows: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/05-customizing-workflows.md
-    - Troubleshooting: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/06-troubleshooting.md
-    - Resources & Next Steps: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/07-resources.md
-    - Glossary: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/glossary.md
+    - Overview: translational-data-science-series/building-computational-workflows/2026-winter/index.md
+    - Pre-Work: translational-data-science-series/building-computational-workflows/2026-winter/00-pre-work.md
+    - Introduction: translational-data-science-series/building-computational-workflows/2026-winter/01-introduction.md
+    - Hello World Workflow: translational-data-science-series/building-computational-workflows/2026-winter/02-hello-world.md
+    - Real-World Workflow: translational-data-science-series/building-computational-workflows/2026-winter/03-real-world-workflow.md
+    - Customizing Workflows: translational-data-science-series/building-computational-workflows/2026-winter/04-customizing-workflows.md
+    - Running Workflows: translational-data-science-series/building-computational-workflows/2026-winter/05-running-workflows.md
+    - Common Pitfalls: translational-data-science-series/building-computational-workflows/2026-winter/06-pitfalls.md
+    - Resources & Next Steps: translational-data-science-series/building-computational-workflows/2026-winter/07-resources.md
+    - Glossary: translational-data-science-series/building-computational-workflows/2026-winter/glossary.md
+  - Responsible AI Use:
+    - Overview: responsible-data-stewardship-series/responsible-ai-use/2026-spring/index.md
