@@ -8,4 +8,4 @@ Content still to come!!!
 
 ---
 
-**Previous:** [← Real World Workflow](02-real-world-workflow.md) | **Next:** [A Real-World Workflow →](04-real-world-workflow.md)
+**Previous:** [← Customizing Workflows](04-customizing-workflows.md) | **Next:** [Common Pitfalls →](06-pitfalls.md)

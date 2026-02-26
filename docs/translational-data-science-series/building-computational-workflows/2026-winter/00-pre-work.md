@@ -49,4 +49,4 @@ This Deep Dive includes a live demonstration and optional follow-along submissio
 
 > We would much rather help you beforehand than during the session.
 
-**Next:** [Basic "Hello World" Workflow →](01-hello-world.md)
+**Next:** [Introduction →](01-introduction.md)

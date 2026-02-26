@@ -25,9 +25,6 @@ By the end of this course, you will be able to:
 
 ## Prerequisites
 
-For local execution:
-- Install Docker and Sprocket
-
 For execution on Fred Hutch Resources:
 - Fred Hutch credentials
 - Access to the Fred Hutch Cluster
@@ -40,12 +37,13 @@ For execution on Fred Hutch Resources:
 
 | # | Module | Description |
 |---|--------|-------------|
+| 0 | [Pre-Work](00-pre-work.md) | What to prepare before diving in |
 | 1 | [Introduction](01-introduction.md) | Why workflows? Motivation and context |
-| 2 | [WDL Concepts](02-wdl-concepts.md) | Core WDL concepts learned through a Hello World walkthrough |
-| 3 | [Running Workflows](03-running-workflows.md) | Executing workflows with Sprocket and PROOF |
-| 4 | [A Real-World Workflow](04-real-world-workflow.md) | End-to-end example with `ww-sra-star` from the WILDS WDL Library |
-| 5 | [Customizing Workflows](05-customizing-workflows.md) | Modifying and extending existing pipelines |
-| 6 | [Troubleshooting](06-troubleshooting.md) | Diagnosing errors and fixing common issues |
+| 2 | [WDL Concepts](02-hello-world.md) | Core WDL concepts learned through a Hello World walkthrough |
+| 3 | [A Real-World Workflow](03-real-world-workflow.md) | End-to-end example with `ww-sra-salmon` from the WILDS WDL Library |
+| 4 | [Customizing Workflows](04-customizing-workflows.md) | Modifying and extending existing pipelines |
+| 5 | [Running Workflows](05-running-workflows.md) | Executing workflows with PROOF |
+| 6 | [Common Pitfalls](06-pitfalls.md) | Diagnosing errors and fixing common issues |
 | 7 | [Resources & Next Steps](07-resources.md) | Where to go from here |
 
 ## Reference
@@ -53,5 +51,3 @@ For execution on Fred Hutch Resources:
 - [Glossary](glossary.md) — Key terms and definitions
 
 ---
-
-<!-- TODO: Add any site-wide footer, license info, or GitHub Pages configuration notes -->
