@@ -1,8 +1,11 @@
 version 1.0
 
-workflow hello {
+workflow hello_world {
   meta {
     description: "Writes a personalized greeting to a file"
+    outputs: {
+      out_file: "A file containing a personalized greeting and your favorite number"
+    }
   }
 
   parameter_meta {
@@ -15,20 +18,23 @@ workflow hello {
     Int your_number = 29
   }
 
-  call greet {
+  call greeting {
     input:
       name = your_name,
       number = your_number
   }
 
   output {
-    File out_file = greet.out
+    File out_file = greeting.out
   }
 }
 
-task greet {
+task greeting {
   meta {
     description: "Writes a personalized greeting to a file"
+    outputs: {
+      out: "A file containing a personalized greeting and your favorite number"
+    }
   }
 
   parameter_meta {

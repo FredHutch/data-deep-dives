@@ -1,4 +1,4 @@
-# Module 5: A Real-World Workflow
+# Module 4: A Real-World Workflow
 
 > Walkthrough of the `ww-sra-star` pipeline — downloading RNA-seq data and performing STAR alignment.
 
@@ -8,7 +8,7 @@
 
 <!-- TODO: Introduce the ww-sra-star pipeline — a real-world, multi-step workflow from the WILDS WDL Library -->
 <!-- TODO: Mention the approximate runtime (~2 hours) and that results were pre-run for the demo -->
-<!-- TODO: Contrast with the Hello World workflow from Module 3 — this is what real workflows look like -->
+<!-- TODO: Contrast with the Hello World workflow from Module 2 — this is what real workflows look like -->
 
 ## What This Pipeline Does
 
@@ -26,7 +26,7 @@
   - Explain the modules vs. pipelines distinction:
     - Modules: reusable, tool-specific task collections (e.g., ww-sra, ww-star, ww-fastqc)
     - Pipelines: pre-built workflows that chain modules together (e.g., ww-sra-star)
-  - Point to Module 8 (Resources) for a deeper dive on navigating the library
+  - Point to Module 7 (Resources) for a deeper dive on navigating the library
 -->
 
 ## Pipeline Architecture
@@ -96,16 +96,16 @@
 
 ## Monitoring and Reading Logs
 
-<!-- TODO: This is the main coverage of monitoring and log reading — Module 4 covers only the
+<!-- TODO: This is the main coverage of monitoring and log reading — Module 3 covers only the
   basics (terminal output for a quick Hello World run). Here, walk through the full picture
   with a real multi-step, multi-sample workflow:
   - Checking progress in PROOF or Sprocket — identifying which tasks have completed vs. are still running
   - Workflow-level logs: where to find them, what they tell you about overall execution
   - Task-level logs: stdout and stderr for individual tasks — where they live and what to look for
   - Example: reading STAR's stderr output to confirm alignment completed successfully
-  - What to do if a task fails — how the logs point you to the problem (more in Module 7)
+  - What to do if a task fails — how the logs point you to the problem (more in Module 6)
 -->
 
 ---
 
-**Previous:** [← Running Workflows](04-running-workflows.md) | **Next:** [Customizing Workflows →](06-customizing-workflows.md)
+**Previous:** [← Running Workflows](03-running-workflows.md) | **Next:** [Customizing Workflows →](05-customizing-workflows.md)

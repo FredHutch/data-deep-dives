@@ -1,4 +1,4 @@
-# Module 6: Customizing Workflows
+# Module 5: Customizing Workflows
 
 > How to modify and extend existing pipelines to fit your needs.
 
@@ -67,7 +67,7 @@
   - The WILDS WDL Development Program (https://sciwiki.fredhutch.org/datascience/wilds_workflow_dev/)
     is a free service where OCDO helps you build a production WDL workflow from your existing scripts
   - Good fit if your analysis has broad applicability and you're willing to share it openly
-  - Link to Module 8 (Contributing to WILDS) for full details
+  - Link to Module 7 (Contributing to WILDS) for full details
 -->
 
 ## Best Practices
@@ -81,4 +81,4 @@
 
 ---
 
-**Previous:** [← A Real-World Workflow](05-real-world-workflow.md) | **Next:** [Troubleshooting →](07-troubleshooting.md)
+**Previous:** [← A Real-World Workflow](04-real-world-workflow.md) | **Next:** [Troubleshooting →](06-troubleshooting.md)

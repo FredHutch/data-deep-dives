@@ -1,4 +1,4 @@
 {
-  "hello.your_name": "Fred",
-  "hello.your_number": 50
+  "hello_world.your_name": "Fred",
+  "hello_world.your_number": 29
 }

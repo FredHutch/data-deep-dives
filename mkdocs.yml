@@ -1,0 +1,22 @@
+site_name: Data Science Deep Dives
+site_description: Materials for the Data Science Deep Dive series at Fred Hutch
+
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    scheme: default
+
+nav:
+  - Home: index.md
+  - Building Computational Workflows:
+    - Overview: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/index.md
+    - Introduction: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/01-introduction.md
+    - WDL Concepts: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/02-wdl-concepts.md
+    - Running Workflows: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/03-running-workflows.md
+    - A Real-World Workflow: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/04-real-world-workflow.md
+    - Customizing Workflows: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/05-customizing-workflows.md
+    - Troubleshooting: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/06-troubleshooting.md
+    - Resources & Next Steps: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/07-resources.md
+    - Glossary: deep-dive/translational-data-science-series/building-computational-workflows/2026-winter/glossary.md

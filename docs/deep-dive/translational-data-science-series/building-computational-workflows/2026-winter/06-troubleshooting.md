@@ -1,4 +1,4 @@
-# Module 7: Troubleshooting
+# Module 6: Troubleshooting
 
 > How to diagnose errors and fix common issues with WDL workflows.
 
@@ -41,7 +41,7 @@
 ## Validation with Sprocket
 
 <!-- TODO: Deeper dive on using Sprocket validation as a troubleshooting tool.
-  Module 4 introduces validation as a pre-run best practice; here, expand on:
+  Module 3 introduces validation as a pre-run best practice; here, expand on:
   - Using validation output to diagnose specific errors (syntax issues, type mismatches, missing inputs)
   - Reading and interpreting validation error messages
   - Iterating: fix → validate → fix → validate until clean
@@ -59,4 +59,4 @@
 
 ---
 
-**Previous:** [← Customizing Workflows](06-customizing-workflows.md) | **Next:** [Resources & Next Steps →](08-resources.md)
+**Previous:** [← Customizing Workflows](05-customizing-workflows.md) | **Next:** [Resources & Next Steps →](07-resources.md)

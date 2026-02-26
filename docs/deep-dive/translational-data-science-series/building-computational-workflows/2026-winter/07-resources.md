@@ -1,4 +1,4 @@
-# Module 8: Resources & Next Steps
+# Module 7: Resources & Next Steps
 
 > Where to go from here — tools, documentation, community, and training.
 
@@ -6,7 +6,7 @@
 
 ## The WILDS WDL Library
 
-<!-- TODO: Now that participants have seen a real pipeline in action (Module 5) and customized one (Module 6),
+<!-- TODO: Now that participants have seen a real pipeline in action (Module 4) and customized one (Module 5),
   provide a more thorough guide to navigating the library on their own. -->
 
 ### Navigating the Repository
@@ -125,4 +125,4 @@
 
 ---
 
-**Previous:** [← Troubleshooting](07-troubleshooting.md) | **Home:** [Course Overview](index.md)
+**Previous:** [← Troubleshooting](06-troubleshooting.md) | **Home:** [Course Overview](index.md)
