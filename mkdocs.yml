@@ -10,6 +10,9 @@ theme:
 
 nav:
   - Home: index.md
+  - Data Deep Dive Basics:
+    - Overview: data-deep-dive-basics/index.md
+    - Slido Usage: data-deep-dive-basics/slido-usage.md
   - Building Computational Workflows:
     - Overview: translational-data-science-series/building-computational-workflows/2026-winter/index.md
     - Pre-Work: translational-data-science-series/building-computational-workflows/2026-winter/00-pre-work.md
