@@ -13,12 +13,6 @@ Sessions are designed to:
 - Demonstrate Hutch-supported tools in real-world contexts  
 - Connect participants to DaSL services 
 
-**Standard Format (1.5 hours):**
-- 60 minutes knowledge sharing
-- 30 minutes optional co-working or hands-on segment
-
-Sessions are repeated quarterly to allow refinement, iteration, and expanded reach.
-
 ---
 
 ### 🔐 Responsible Data Stewardship
@@ -29,11 +23,5 @@ Planned topics include:
 
 - Responsible AI Use  
 - Translational Data Stewardship  
-
-**Standard Format (1 hour):**
-- 40 minutes presentation with audience participation  
-- 20 minutes Q&A (often with invited guest experts)
-
-This series ensures that innovation and governance evolve together.
 
 ---
