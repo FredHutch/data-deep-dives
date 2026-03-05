@@ -4,11 +4,11 @@
 
 ---
 
-So we've seen how a WDL workflow is structured and how it scales — but how do you tweak one to suit your specific research needs? The good news is that WDL workflows are designed to be straightforward to customize.
+OK, so we've seen how a WDL workflow is structured and how it scales — but your next question might be "how do I tweak this to suit my research needs?" The good news is that WDL workflows are relatively straightforward to customize.
 
 ## Common Customizations
 
-Here are some common scenarios and how you'd handle them:
+Here are a few examples:
 
 | I want to... | How to do it | Bioinformatics example |
 |---|---|---|
@@ -18,7 +18,7 @@ Here are some common scenarios and how you'd handle them:
 | **Save results to an S3 bucket** | Import the AWS module and add a task to upload your outputs | `ww-aws-sso` module (supports both upload and download) |
 | **Use a tool that doesn't have a module yet** | We'll help you build one! | See the WILDS WDL Development Program below |
 
-The key takeaway: because WDL workflows are modular, each of these changes is a small, targeted edit — not a rewrite of the entire pipeline.
+Because WDL workflows are modular, each of these changes is a small, targeted edit — not a rewrite of the entire pipeline.
 
 ---
 
@@ -32,7 +32,7 @@ The [WILDS WDL Library](https://sciwiki.fredhutch.org/datascience/wilds_wdl/) is
 
 ### WILDS WDL Development Program
 
-Can't find a module that fits your needs? The WILDS team has started a **[WDL Development Program](https://sciwiki.fredhutch.org/datascience/wilds_workflow_dev/)** where they will work together with you — free of charge — to develop a WDL workflow and incorporate it into the library. The team is very open to requests, so don't hesitate to reach out.
+Can't find a module that fits your needs? The WILDS team has started a **[WDL Development Program](https://sciwiki.fredhutch.org/datascience/wilds_workflow_dev/)** where they will work together with you — free of charge — to develop a WDL workflow and incorporate it into the library. We're very open to requests!
 
 ### Other Resources
 

@@ -41,15 +41,15 @@ workflow hello_world {
 }
 ```
 
-Every WDL workflow follows a consistent structure. Let's break it down from top to bottom:
+You'll notice the outer workflow skeleton has a few distinct sections. Walking through from top to bottom:
 
 ### Metadata (`meta` and `parameter_meta`)
 
-At the top, we have a metadata section that describes what the workflow does and what the inputs and outputs represent. This section isn't strictly required, but it's extremely helpful for future users — or even yourself a couple months down the road.
+At the top, we have a metadata section that describes what the workflow does and what the inputs and outputs represent. This section isn't 100% necessary, but it's super helpful for future users — or even yourself a couple months down the road.
 
 ### Inputs (`input`)
 
-Next, we clearly define what users should provide as input and what data types those inputs should be. In this case, we're providing a name via a `String` and a favorite number via an `Int`. WDL's type system helps catch errors early — if someone accidentally passes a decimal number where an integer is expected, WDL will flag it before the workflow even runs.
+Next, we clearly define what users should provide as input and what data types they should be. In this case, we're providing a name via a `String` and a favorite number via an `Int`. WDL's type system helps catch mistakes early — if someone accidentally passes a decimal number where an integer is expected, WDL will flag it before the workflow even runs.
 
 ### Task Calls (`call`)
 
@@ -65,9 +65,9 @@ The overall result is a **human-readable overview** of what the workflow is doin
 
 ## Defining a Task
 
-The natural next question is: how do we define the `greeting` task that the workflow calls? In WDL, tasks are typically written in the same file as the workflow, just below it. So everything you see here — the workflow and the task — lives in a single `.wdl` script. (Later, in [Module 3](03-real-world-workflow.md), we'll see how you can also import tasks from separate files or even from GitHub.)
+So how do we define that `greeting` task in the middle? In WDL, tasks are typically written in the same file as the workflow, just below it. So everything you see here — the workflow and the task — lives in a single `.wdl` script. (Later, in [Module 3](03-real-world-workflow.md), we'll see how you can also import tasks from separate files or even from GitHub.)
 
-Tasks have a very similar structure to workflows, just zoomed in to the building-block level:
+Tasks have very similar vibes to how a workflow is defined, just zoomed into the building-block level:
 
 ```wdl
 task greeting {
@@ -109,7 +109,7 @@ Again, we see the same familiar sections at the top — `meta` and `parameter_me
 
 ### Command (`command`)
 
-The `command` section defines exactly what should be run on the command line within the task. Think of it as writing directly on the command line. In this example, it's a simple `echo` statement that prints "Hello, Taylor!" to a text file — but you can adapt this to run whatever computation you need, whether that's a bioinformatics tool, a Python script, or anything else.
+The `command` section defines exactly what should be run on the command line within the task. Essentially, pretend you're writing on the command line in this section. In this example, it's a simple `echo` statement that prints "Hello, Taylor!" to a text file — but you can adapt that to run whatever computation you need, whether that's a bioinformatics tool, a Python script, whatever you want.
 
 Notice the `~{name}` syntax — this is how WDL interpolates input variables into your command. Anything inside `~{ }` gets replaced with the actual value at runtime.
 

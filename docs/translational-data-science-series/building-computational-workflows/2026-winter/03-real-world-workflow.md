@@ -14,7 +14,7 @@ Don't worry too much about the exact bioinformatics context here. The general id
 2. **Post-process** each dataset automatically
 3. **Save** the final results to a location of our choosing
 
-For the bioinformatics-inclined: we're downloading raw RNA sequencing data from [SRA](https://www.ncbi.nlm.nih.gov/sra) and quantifying it with [Salmon](https://salmon.readthedocs.io/).
+For the bioinformatics nerds out there: we're downloading raw RNA sequencing data from [SRA](https://www.ncbi.nlm.nih.gov/sra) and quantifying it with [Salmon](https://salmon.readthedocs.io/).
 
 ## Walking Through the Workflow
 
@@ -66,7 +66,7 @@ workflow sra_salmon {
 }
 ```
 
-Let's walk through each section:
+Let's walk through it:
 
 ### Inputs
 
@@ -95,9 +95,9 @@ Finally, we specify which outputs to save. In this case, we're interested in the
 
 ## Scaling with Scatter-Gather
 
-So far so good, but this would only process a single dataset. What if you have a list of 100 datasets that you want to download and process? This is where WDL really shines.
+All good so far, but this would only process a single dataset. What if you have a list of 100 datasets that you want to download and process? How do you make that scale?
 
-WDL handles this with a **scatter-gather** pattern. It's similar to a `for` loop, but instead of running things sequentially, it fans each iteration out to its own computational node for maximum parallelization:
+With WDL, scaling is actually pretty straightforward using what's called a **scatter-gather** pattern. It's similar to a `for` loop, but instead of running things sequentially, it spreads each iteration out to its own computational node for maximum parallelization:
 
 ```wdl
 scatter ( id in sra_id_list ){
@@ -114,15 +114,15 @@ scatter ( id in sra_id_list ){
 }
 ```
 
-Since we provided `sra_id_list` as an array of IDs, the workflow automatically scatters across the entire list — each sample gets sent to its own node for downloading and quantification in parallel. If you have 100 samples that each take an hour, that's 100 hours sequentially versus roughly 1 hour in parallel. The only limit is the resources available to you, and on the Fred Hutch cluster, you have quite a lot of nodes to work with.
+Since we provided `sra_id_list` as an array of IDs, the workflow automatically scatters across the entire list and sends each sample to its own node for downloading and quantification in parallel. So if you have 100 samples that each take an hour, 100 hours sequentially turns into ~1 hour in parallel. The only limit is the amount of resources available to you, and on the Fred Hutch cluster, you have quite a lot of nodes to play with.
 
-The workflow also handles the **handoff between tasks** automatically. When sample A finishes downloading, WDL immediately hands off the results to the quantification step — no need to wait for the rest of the samples to finish downloading first, and no need to manually babysit the process.
+The workflow also nicely takes care of the **handoff between tasks** — when sample A finishes downloading, WDL automatically hands off the results to the quantification step. No need to wait for the rest of the samples to finish downloading first, and no need to manually babysit.
 
 After all the scattered tasks complete, the results are automatically **gathered** back together. That's why the `merge_results` task (which sits outside the scatter block) can receive the full array of quantification outputs and combine them into a single matrix.
 
 ---
 
-In the [next section](04-customizing-workflows.md), we'll see how straightforward it is to customize workflows like this one to suit your specific research needs.
+In the [next section](04-customizing-workflows.md), we'll look at how to customize workflows like this one to suit your specific research needs.
 
 ---
 
