@@ -1,5 +1,7 @@
 # Data Deep Dives
 
+![Data Deep Dive Logo](assets/Data_Deep_Dive_Logo.png){ width="100", align="left" }
+
 ## Overview
 
 **Data Deep Dives** are quarterly, hands-on learning sessions designed specifically for the Fred Hutch community.
