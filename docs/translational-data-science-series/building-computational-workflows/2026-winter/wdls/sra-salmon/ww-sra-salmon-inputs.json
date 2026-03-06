@@ -1,5 +1,5 @@
 {
-  "sra_salmon.sra_id_list": ["SRR3589956", "SRR3589957"],
+  "sra_salmon.sra_id_list": ["SRR3589956", "SRR3589957", "SRR3589958"],
   "sra_salmon.transcriptome_fasta": "/fh/fast/_DaSL/public/gencode.v47.pc_transcripts.fa.gz",
   "sra_salmon.ncpu": 8,
   "sra_salmon.memory_gb": 16,
