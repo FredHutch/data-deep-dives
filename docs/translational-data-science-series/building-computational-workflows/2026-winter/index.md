@@ -18,20 +18,10 @@ This course will guide readers through the basics of WDL computational workflows
 By the end of this course, you will be able to:
 
 - Understand the structure of a WDL workflow
-- Specify inputs and execute a workflow via Sprocket or PROOF
+- Specify inputs and execute a workflow via PROOF
 - Navigate the WILDS WDL Library to find relevant workflows
 - Interpret workflow outputs and troubleshoot common issues
 - Customize existing workflows by adding or swapping modules
-
-## Prerequisites
-
-For execution on Fred Hutch Resources:
-- Fred Hutch credentials
-- Access to the Fred Hutch Cluster
-
-<!-- TODO: Add SciWiki links -->
-<!-- TODO: List prerequisites (e.g., Fred Hutch cluster access, Rhino credentials, SciComp Self-Service setup) -->
-<!-- TODO: Link to pre-work resources (e.g., Cluster 101) -->
 
 ## Course Modules
 
