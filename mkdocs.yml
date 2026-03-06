@@ -1,12 +1,21 @@
-site_name: Data Science Deep Dives
-site_description: Materials for the Data Science Deep Dive series at Fred Hutch
+site_name: Data Deep Dives
+site_description: Materials for the Data Deep Dive series at Fred Hutch
 
 docs_dir: docs
 
 theme:
   name: material
+  logo: assets/fred-hutch-logo-primary-reverse.png
+  favicon: assets/Data_Deep_Dive_Logo.png
   palette:
     scheme: default
+    primary: custom
+
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md

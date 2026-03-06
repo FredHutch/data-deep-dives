@@ -1,4 +1,4 @@
-# Module 3: Running Workflows
+# Module 5: Running Workflows
 
 > How to execute WDL workflows using PROOF — with the real-world workflow from Module 2 as our hands-on example.
 
