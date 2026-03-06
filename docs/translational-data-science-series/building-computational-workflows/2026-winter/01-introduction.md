@@ -1,5 +1,3 @@
-# Introduction to Workflows
-
 # Introduction to Computational Workflows
 
 Many research analyses involve running the **same series of steps repeatedly** across multiple samples or datasets.  
