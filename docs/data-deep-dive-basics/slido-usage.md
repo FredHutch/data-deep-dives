@@ -20,25 +20,25 @@ Each Deep Dive will have a **unique Slido code** shared at the beginning of the 
 
 During a Deep Dive, Slido may be used for:
 
-### 💬 Live Q&A
+### Live Q&A
 Submit questions throughout the session.
 You can upvote questions you want prioritized.
 Facilitators monitor Slido in real time.
 
-### 🧠 Interactive Prompts
+### Interactive Prompts
 We may ask short questions to:
 - Gauge experience level
 - Collect examples from the audience
 - Prioritize discussion topics
 - Surface real-world challenges
 
-### 📊 Pre-Event Survey
+### Pre-Event Survey
 Some sessions include a short pre-session survey to help us:
 - Understand your background
 - Tailor the session content
 - Adjust demos or examples
 
-### 📝 Post-Event Feedback
+### Post-Event Feedback
 We use Slido to collect:
 - What worked well
 - What was unclear
@@ -70,19 +70,6 @@ No account is required to submit questions or participate in polls.
 - Anonymous submissions are allowed.
 - Please keep questions relevant and respectful.
 - If your question is not answered live, we will review and follow up if needed.
-
----
-
-## Why This Matters
-
-Slido helps make Deep Dives:
-
-- More interactive
-- More inclusive
-- More responsive
-- Measurable and improvable over time
-
-Your participation shapes future sessions.
 
 ---
 
