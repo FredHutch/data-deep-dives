@@ -56,7 +56,7 @@ You can use PROOF Workbench to:
 Several teams and Fred Hutch resources are available to help you learn, troubleshoot, and collaborate.
 
 
-## [SciComp]( scicomp@fredhutch.org)
+## [SciComp](mailto:scicomp@fredhutch.org)
 
 The **Scientific Computing (SciComp)** team provides support for:
 
