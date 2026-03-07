@@ -31,7 +31,7 @@ Instead of manually running commands repeatedly, workflows can distribute work a
 Example:
 - Running the same analysis on hundreds of sequencing samples
 
----
+
 
 ## Reproducible
 Workflows define **exact steps and parameters** used during analysis.
@@ -44,7 +44,7 @@ This helps ensure:
 - transparent methods  
 - easier troubleshooting  
 
----
+
 
 ## Shareable
 Workflows can be **shared across labs and teams**.
@@ -113,13 +113,12 @@ This file defines **what data will be used**.
 
 It includes:
 
-- input files (FASTQs, BAMs, etc.)
-- file paths
-- parameters required for the workflow
+- Input file paths (FASTQs, BAMs, etc.)
+- Parameters required for the workflow
 
 Think of this as the **ingredients for the analysis**.
 
----
+
 
 ## `options.json`
 
@@ -127,13 +126,13 @@ This file defines **how the workflow should run**.
 
 It specifies:
 
-- compute environment (HPC or cloud)
-- memory and resource requirements
-- where outputs should be written
+- Whether to cache outputs
+- What to do if a workflow fails
+- Where outputs should be written
 
 This is similar to the **equipment needed for a recipe**.
 
----
+
 
 ## `workflow.wdl`
 
@@ -141,10 +140,10 @@ This file defines the **workflow itself**.
 
 It contains:
 
-- the tasks that will run
-- the order of execution
-- dependencies between steps
-- how inputs become outputs
+- Calls to the tasks to be run
+- The order of execution
+- Dependencies between steps
+- A record of how inputs become outputs
 
 In other words, it describes the **instructions for the analysis**.
 
@@ -156,10 +155,9 @@ Computational workflows help researchers move from **raw data to results** in a 
 
 They allow analyses to be:
 
-- automated
-- scalable
-- reproducible
-- shareable
+- Scalable
+- Reproducible
+- Shareable
 
 ---
 

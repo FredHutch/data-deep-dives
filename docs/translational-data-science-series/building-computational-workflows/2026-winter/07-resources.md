@@ -1,4 +1,3 @@
-# Module 7: Resources & Next Steps
 # Fred Hutch Resources and Next Steps
 
 Now that you understand the basics of computational workflows and WDL, there are several **Fred Hutch resources** that can help you find workflows, run analyses, and get support.
@@ -22,7 +21,7 @@ You can use the library to:
 - Adapt workflows for your own analyses
 
 Repository: [WDL Repository on GitHub](https://github.com/getwilds/wilds-wdl-library)
----
+
 
 ## [WILDS Docker Library](https://sciwiki.fredhutch.org/datascience/wilds_docker/)
 
@@ -32,14 +31,14 @@ These images package the software required for each analysis step, ensuring that
 
 Benefits include:
 
-- standardized software environments
-- fewer dependency conflicts
-- improved reproducibility across systems
+- Standardized software environments
+- No dependency conflicts
+- Improved reproducibility across systems
 
 **Repository:**  
 [WILDS Docker Library](https://github.com/getwilds/wilds-docker-library)
 
----
+
 ## [PROOF Workbench (PWB)](https://pwb.fredhutch.org/)
 **PROOF Workbench** provides an interface for running workflows on Fred Hutch compute infrastructure.
 
@@ -47,25 +46,24 @@ It integrates with workflow engines and HPC resources to simplify the process of
 
 You can use PROOF Workbench to:
 
-- run WDL workflows
-- manage computational jobs
-- monitor workflow progress
-- organize outputs
+- Run WDL workflows
+- Manage jobs submitted through PWB
+- Monitor workflow progress
 
 ---
 # Community and Support
 
-Several teams and community resources are available to help you learn, troubleshoot, and collaborate.
+Several teams and Fred Hutch resources are available to help you learn, troubleshoot, and collaborate.
 
----
+
 ## [SciComp]( scicomp@fredhutch.org)
 
 The **Scientific Computing (SciComp)** team provides support for:
 
 - HPC cluster usage
-- scientific software installation
-- cloud computing
-- Unix and data management services
+- Software installation on the cluster
+- Cloud computing
+- Data management services
 
 If you need help with compute infrastructure or performance issues, SciComp is a good place to start.
 
@@ -76,14 +74,13 @@ If you need help with compute infrastructure or performance issues, SciComp is a
 
 This includes support for:
 
-- research computing
-- workflow development
-- data management
-- analysis strategy
+- Research computing
+- Workflow development
+- Data management
 
 You can submit a request through the **[Research Computing and Data Management DHC program](https://calendly.com/data-house-calls/computing)**.
 
----
+
 ## [FH Data Slack](https://fhdata.slack.com/archives/CA2KRB666)
 
 The **Fred Hutch Data Slack workspace** connects researchers, engineers, and data scientists across the institution.
@@ -92,21 +89,21 @@ For workflow-related questions, check out: #workflows
 
 This channel is a great place to:
 
-- ask questions
-- learn from others’ experiences
-- discover new tools and resources
+- Ask questions
+- Learn from others’ experiences
+- Discover new tools and resources
 
----
+
 ## [Fred Hutch SciWiki](http://sciwiki.fredhutch.org/)
 
 **SciWiki** is the community-maintained knowledge base for biomedical data science and research computing at Fred Hutch.
 
 It contains documentation on:
 
-- computing resources
-- workflow tools
-- data management practices
-- tutorials and guides
+- Computing resources
+- Workflow tools
+- Data management practices
+- Tutorials and guides
 
 Many Hutch-supported tools and workflows are documented here.
 
@@ -117,7 +114,7 @@ If you're interested in starting with workflows, here are some recommended next 
 
 1. Explore the **WILDS WDL Library** to see example workflows.
 2. Try running a workflow using **PROOF Workbench**.
-3. Join the **FH Data Slack** workspace and visit the `#workflows` channel.
+3. Join the **FH Data Slack** workspace and visit the `#workflow-managers` channel.
 4. Request a **Data House Call** if you need help adapting workflows for your project.
 5. Review relevant documentation on **SciWiki**.
 

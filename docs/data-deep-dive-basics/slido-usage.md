@@ -51,7 +51,7 @@ We use Slido to collect:
 
 ### Step 1
 Go to:  
-👉 **www.slido.com**
+**www.slido.com**
 
 ### Step 2
 Enter the event code shown on the slide at the beginning of the session.
