@@ -24,6 +24,7 @@ By the end of this course, you will be able to:
 - Customize existing workflows by adding or swapping modules
 
 ## Course Modules
+You can find the presentation for the Winter Quarter (2026) [here](slides.md)
 
 | # | Module | Description |
 |---|--------|-------------|
