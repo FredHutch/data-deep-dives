@@ -2,23 +2,13 @@
 
 ![Data Deep Dive Logo](assets/Data_Deep_Dive_Logo.png){ width="100", align="left" }
 
-## Overview
-
 **Data Deep Dives** are quarterly, hands-on learning sessions designed specifically for the Fred Hutch community.
 
-They spotlight practical data science tools, methods, and best practices developed by experts within the **Data Science & Software (DS&S)** and **Data Governance (DG)** teams in the Office of the Chief Data Officer (OCDO).
+They spotlight practical data science tools, methods, and best practices developed by experts within the **Data Science & Software (DS&S)** and **Data Governance (DG)** teams in the [Office of the Chief Data Officer (OCDO)](https://ocdo.fredhutch.org/).
 
-Think of them as an opinionated guide to *how we do data science at Fred Hutch.*
+Think of them as an opinionated guide to **_how we do data science at Fred Hutch._**
 
-Each session focuses on **real-world, Hutch-relevant applications** — helping participants understand what’s available, how it works, and how to apply it in their own research or operational work.
-
-Deep Dives are designed to be:
-
-- Practical
-- Interactive
-- Repeatable
-- Hutch-specific
-- Grounded in supported infrastructure
+Each session focuses on **real-world applications** helping participants understand what’s available, how it works, and how to apply it in their own research or operational work.
 
 Rather than traditional lecture-style seminars, Deep Dives emphasize **doing over listening** through:
 
@@ -26,25 +16,6 @@ Rather than traditional lecture-style seminars, Deep Dives emphasize **doing ove
 - Interactive discussions  
 - Live demos  
 - Shared problem-solving  
-
----
-
-## What Makes a Deep Dive Different?
-
-Deep Dives are:
-
-- Not one-off lectures  
-- Not purely theoretical  
-- Not tool advertisements  
-
-They are practical working sessions grounded in Hutch reality.
-
-Participants should leave knowing:
-
-- What tools or processes exist  
-- When to use them  
-- How to get started  
-- Where to go next for support  
 
 ---
 
