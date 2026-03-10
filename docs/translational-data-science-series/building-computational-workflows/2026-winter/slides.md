@@ -6,8 +6,6 @@ Recording will be uploaded once the session is completed.
 
 [Download the slides](../../../assets/Building_Computational_Workflows.pdf)
 
-
-## Testing
 <object
   data="../../../../assets/Building_Computational_Workflows.pdf"
   type="application/pdf"
