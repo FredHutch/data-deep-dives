@@ -49,7 +49,7 @@ You can use PROOF Workbench to:
 - Run WDL workflows
 - Manage jobs submitted through PWB
 - Monitor workflow progress
-
+> Read more about PROOF Workbench [here](https://sciwiki.fredhutch.org/datascience/proof/)
 ---
 # Community and Support
 
