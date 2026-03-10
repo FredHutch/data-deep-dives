@@ -55,6 +55,12 @@ PROOF Workbench lets you submit and monitor WDL workflows on the Fred Hutch clus
     6. Go to the **Troubleshoot** tab to see relevant error messages for failed workflows.
     7. View your output files via Finder or File Explorer if you've mapped your cluster folders to your local filesystem. Otherwise, access your files via the command-line.
 
+## Video Demonstration
+
+<video controls width="100%">
+  <source src="../../../../assets/sra_salmon_final_720p_panopto_preset.mp4" type="video/mp4">
+</video>
+
 ---
 
 **Previous:** [← Customizing Workflows](04-customizing-workflows.md) | **Next:** [Common Pitfalls →](06-pitfalls.md)
