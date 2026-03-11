@@ -1,7 +1,5 @@
 # Using Slido in Data Deep Dives
 
-## Why We Use Slido
-
 Some Data Deep Dives will use **Slido** to make sessions interactive, inclusive, and measurable.
 
 Slido allows participants to:
@@ -13,37 +11,6 @@ Slido allows participants to:
 - Provide structured feedback
 
 Each Deep Dive will have a **unique Slido code** shared at the beginning of the session.
-
----
-
-## What to Expect
-
-During a Deep Dive, Slido may be used for:
-
-### Live Q&A
-Submit questions throughout the session.
-You can upvote questions you want prioritized.
-Facilitators monitor Slido in real time.
-
-### Interactive Prompts
-We may ask short questions to:
-- Gauge experience level
-- Collect examples from the audience
-- Prioritize discussion topics
-- Surface real-world challenges
-
-### Pre-Event Survey
-Some sessions include a short pre-session survey to help us:
-- Understand your background
-- Tailor the session content
-- Adjust demos or examples
-
-### Post-Event Feedback
-We use Slido to collect:
-- What worked well
-- What was unclear
-- What you’d like to see next
-- Topics for future Deep Dives
 
 ---
 
@@ -63,13 +30,34 @@ No account is required to submit questions or participate in polls.
 
 ---
 
-## Tips for Participants
+## What to Expect
 
-- You can submit questions anytime during the session.
-- You can upvote questions you want answered.
-- Anonymous submissions are allowed.
-- Please keep questions relevant and respectful.
-- If your question is not answered live, we will review and follow up if needed.
+During a Deep Dive, Slido may be used for:
+
+### Live Q&A
+Submit questions throughout the session.
+Facilitators monitor Slido in real time.
+
+### Interactive Prompts
+We may ask short questions to:
+
+- Gauge experience level
+- Collect examples from the audience
+- Prioritize discussion topics
+- Surface real-world challenges
+
+### Pre-Event Survey
+Some sessions include a short pre-session survey to help us:
+- Understand your background
+- Tailor the next session content
+- Adjust demos or examples in the future
+
+### Post-Event Feedback
+We use Slido to collect:
+- What worked well
+- What was unclear
+- What you’d like to see next
+- Topics for future Deep Dives
 
 ---
 

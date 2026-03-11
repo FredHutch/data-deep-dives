@@ -20,7 +20,7 @@ extra_css:
 nav:
   - Home: index.md
   - Data Deep Dive Basics:
-    - Overview: data-deep-dive-basics/index.md
+    - 2026 Series: data-deep-dive-basics/index.md
     - Slido Usage: data-deep-dive-basics/slido-usage.md
   - Building Computational Workflows:
     - Winter Quarter Presentation: translational-data-science-series/building-computational-workflows/2026-winter/slides.md

@@ -1,26 +1,23 @@
-# Data Deep Dive: Building Computational Workflows
+# Building Computational Workflows
 
-> Course material for the Data Deep Dive workshop — learn to find, run, and customize WDL workflows using the WILDS WDL Library, Sprocket, and PROOF.
+## Overview
 
----
+This content will guide readers through the basics of WDL computational workflows, why they might be advantageous, and how to best utilize them in the context of the Fred Hutch ecosystem.
 
-## Course Overview
+## Who This Deep Dive Is For
 
-This course will guide readers through the basics of WDL computational workflows, why they might be advantageous in research contexts, and how to best utilize them in the context of the Fred Hutch ecosystem.
-
-## Who This Course Is For
-
-- No previous workflow experience is required, just basic command line experience.
-- The specifics of WDL execution will be most useful for researchers actually performing the research (e.g. post-docs, grad students), but PI's would definitely benefit from the broad concepts and potential advantages of WDL workflows.
+- Anyone who wants to start learning about computational workflows
+- People interested in understanding the basics of **WDL** or the Workflow Description Language ( a coding language used to write computational workflows).
+- If you are leading a team that uses (or should use) computational workflows. The broad concepts presented here might be helpful. 
 
 ## Learning Objectives
 
 By the end of this course, you will be able to:
 
-- Understand the structure of a WDL workflow
-- Specify inputs and execute a workflow via PROOF
-- Navigate the WILDS WDL Library to find relevant workflows
-- Interpret workflow outputs and troubleshoot common issues
+- Understand when and why you should use a computational workflow
+- Understand the basic structure of a WDL workflow
+- How to executes a workflow on the FH cluster using via PROOF Workbench
+- Navigate the WILDS WDL Library to adapt/used WDL workflows
 - Customize existing workflows by adding or swapping modules
 
 ## Course Modules
