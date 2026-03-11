@@ -133,4 +133,9 @@ A version control system that tracks code changes over time.
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Home:** [Course Overview](index.md)
