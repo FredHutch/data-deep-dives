@@ -98,4 +98,9 @@ In other words, it describes the **instructions for the analysis**.
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [← Pre-Work](00-pre-work.md) | **Next:** [WDL Concepts →](02-hello-world.md)
