@@ -49,4 +49,8 @@ Now that we know what WDL workflows look like, how they scale, and how to custom
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
 **Previous:** [&larr; A Real-World Workflow](03-real-world-workflow.md) | **Next:** [Running Workflows &rarr;](05-running-workflows.md)
