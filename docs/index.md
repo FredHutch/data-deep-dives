@@ -29,5 +29,4 @@ We welcome suggestions from across the Fred Hutch Data Community.
 
 ---
 > Learn more about:
-> - [Office of the Chief Data Officer](https://ocdo.fredhutch.org/)
-> - [WILDS](https://getwilds.org/)
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
