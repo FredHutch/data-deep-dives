@@ -63,4 +63,9 @@ PROOF Workbench lets you submit and monitor WDL workflows on the Fred Hutch clus
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [← Customizing Workflows](04-customizing-workflows.md) | **Next:** [Common Pitfalls →](06-pitfalls.md)
