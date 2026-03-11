@@ -12,3 +12,10 @@ Recording will be uploaded once the session is completed.
   width="100%"
   height="800">
 </object>
+
+---
+
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
