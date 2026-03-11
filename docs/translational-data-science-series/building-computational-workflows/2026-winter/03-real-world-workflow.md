@@ -126,4 +126,9 @@ In the [next section](04-customizing-workflows.md), we'll look at how to customi
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [&larr; Hello World Workflow](02-hello-world.md) | **Next:** [Customizing Workflows &rarr;](04-customizing-workflows.md)
