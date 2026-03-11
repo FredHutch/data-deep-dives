@@ -137,4 +137,9 @@ In the [next section](03-real-world-workflow.md), we'll see how this same struct
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [&larr; Introduction](01-introduction.md) | **Next:** [A Real-World Workflow &rarr;](03-real-world-workflow.md)
