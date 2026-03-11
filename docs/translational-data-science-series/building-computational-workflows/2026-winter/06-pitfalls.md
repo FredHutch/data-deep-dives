@@ -54,4 +54,9 @@ Also worth noting: WDL isn't the only workflow language out there. [Nextflow](ht
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [&larr; Running Workflows](05-running-workflows.md) | **Next:** [Resources & Next Steps &rarr;](07-resources.md)
