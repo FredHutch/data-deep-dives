@@ -125,4 +125,9 @@ The Hutch ecosystem provides tools and support to help you get started.
 
 ---
 
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
+
 **Previous:** [← Common Pitfalls](06-pitfalls.md) | **Home:** [Course Overview](index.md)
