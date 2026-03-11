@@ -23,3 +23,7 @@ Planned topics include:
 
 - Responsible AI Use  
 - Translational Data Stewardship  
+
+---
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
