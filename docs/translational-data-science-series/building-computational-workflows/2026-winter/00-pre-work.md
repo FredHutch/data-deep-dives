@@ -43,4 +43,9 @@ As a part of this Deep Dive we will be demonstrating how to modify a workflow an
 
 > We would much rather help you beforehand than during the session.
 
+---
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+ ---
+
 **Next:** [Introduction →](01-introduction.md)
