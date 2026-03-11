@@ -39,3 +39,8 @@ You can find the presentation for the Winter Quarter (2026) [here](slides.md)
 - [Glossary](glossary.md) — Key terms and definitions
 
 ---
+
+> Learn more about:
+> [Office of the Chief Data Officer](https://ocdo.fredhutch.org/) |  [WILDS](https://getwilds.org/)
+
+--- 
